@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     font-size:14px;
-    font-family:Arial;
+    font-family:'Lato', sans-serif;
     color:#000000;
     background-color:#272822;
     visibility:hidden;
@@ -78,4 +78,69 @@ a:visited
 	width:1000px;
 	position:relative;
 	margin:auto;
+}
+
+.table-alignator-wrapper
+{
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+}
+
+.table-alignator-wrapper .table-alignator
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#header
+{
+    border-bottom:2px solid #112f45;
+    height:210px;
+}
+
+#photo
+{
+    width:150px;
+    height:150px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:30px 0 0 30px;
+    float:left;
+}
+
+#nome
+{
+    width:400px;
+    height:100%;
+    padding-left:44px;
+    font-size:30px;
+    line-height:28px;
+    font-weight:700;
+}
+
+#nome span
+{
+    font-size:20px;
+    font-weight:300;
+    font-size:20px;
+    line-height:20px;
+}
+
+#content
+{
+    min-height:1000px;
+}
+
+#content .item
+{
+    padding:20px 40px;
+    border-bottom:2px solid #112f45;
 }
