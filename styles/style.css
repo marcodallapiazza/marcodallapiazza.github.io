@@ -5,13 +5,12 @@
     font-size:14px;
     font-family:'Rokkitt', serif;
     color:#1f2a3b;
-    visibility:hidden;
     background-color:#181818;
 }
 
 @-ms-viewport 
 {
-  width: device-width;
+  width:device-width;
 }
 
 .clear-after:after
@@ -47,16 +46,6 @@ h1
     font-size:30px;
 }
 
-.pagina-titolo
-{
-    
-}
-
-.pagina-testo
-{
-	
-}
-
 a:link,
 a:visited
 {
@@ -70,7 +59,6 @@ a:visited
     width:900px;
     position:relative;
     margin:30px auto;
-    padding:0px;
     background-color:#f3f3f3;
 }
 
@@ -95,16 +83,25 @@ a:visited
     vertical-align:middle;
 }
 
+@keyframes animateHeader {
+    0% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
 #header
 {
     border-bottom:2px solid #1f2a3b;
     height:210px;
-    opacity:0;
-}
-
-#header.translate
-{
-    opacity:1;
+    animation-name:animateHeader;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+    animation-duration:0.6s;
 }
 
 #photo
@@ -161,6 +158,17 @@ a:visited
     height:100%;
 }
 
+@keyframes animateContent {
+    0% 
+    {
+        top:350px;
+    }
+    100% 
+    {
+        top:0px;
+    }
+}
+
 #content-wrapper
 {
     position:relative;
@@ -170,21 +178,19 @@ a:visited
 #content
 {
     min-height:1000px;
-    padding:0 36px 10px 36px;
+    padding:0 36px;
     position:relative;
     left:auto;
-    top:350px;
-}
-
-#content.translate
-{
-    top:0;
+    animation-name:animateContent;
+    animation-iteration-count:1;
+    animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    animation-duration:0.8s;
 }
 
 #content .item
 {
-    padding:20px 0 30px 0;
-    margin-bottom:8px;
+    padding:30px 0 20px 0;
+    margin-bottom:10px;
     border-bottom:1px solid #1f2a3b;
 }
 
@@ -219,7 +225,7 @@ a:visited
     line-height:26px;
 }
 
-#content .item .descrizione span
+#content .item .descrizione .data
 {
     font-size:15px;
     margin-bottom:6px;
@@ -227,20 +233,17 @@ a:visited
     font-style:italic;
 }
 
-.transition-header
+#content .item.portfolio .descrizione a
 {
-    -webkit-transition: all 0.60s linear;
-    -moz-transition: all 0.60s linear;
-    -ms-transition: all 0.60s linear;
-    -o-transition: all 0.60s linear;
-    transition: all 0.60s linear;
+    font-size:20px;
+    font-style:italic;
+    line-height:24px;
+    display:inline-block;
+    margin-bottom:20px;
+
 }
 
-.transition-content
+#content .item.portfolio .descrizione a:hover
 {
-    -webkit-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
-    -moz-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
-    -ms-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
-    -o-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
-    transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    text-decoration:underline;
 }
