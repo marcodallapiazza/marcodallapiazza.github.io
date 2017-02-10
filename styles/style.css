@@ -329,3 +329,22 @@ a:visited
 {
     text-decoration:underline;
 }
+
+.previews
+{
+    position:relative;
+}
+
+.previews .preview
+{
+    float:left;
+    width:50%;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+
+.previews .preview a
+{
+    margin-bottom:10px !important;
+    display:block;
+}
