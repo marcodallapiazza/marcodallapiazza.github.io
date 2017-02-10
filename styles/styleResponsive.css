@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 ﻿@media screen and (max-width:1000px) 
 {
-=======
-﻿@media screen and (max-width: 1024px) {
->>>>>>> origin/master
     h1
     {
         font-size:24px;
@@ -33,11 +29,7 @@
 
     #nome
     {
-<<<<<<< HEAD
         padding:4px 16px 10px 16px;
-=======
-        padding:4px 16px 16px 16px;
->>>>>>> origin/master
         font-size:24px;
         line-height:20px;
         width:auto;
@@ -50,14 +42,11 @@
         display:block;
     }
 
-<<<<<<< HEAD
     #nome h1
     {
         margin-top:0;
     }
 
-=======
->>>>>>> origin/master
     #nome h2
     {
         font-size:17px;
