@@ -189,6 +189,7 @@ a:visited
     height:100%;
     padding-left:44px;
     font-size:36px;
+<<<<<<< HEAD
     line-height:26px;
     font-weight:700;
 }
@@ -200,6 +201,14 @@ a:visited
 
 #nome h2
 {
+=======
+    line-height:30px;
+    font-weight:700;
+}
+
+#nome h2
+{
+>>>>>>> origin/master
     font-size:24px;
     font-weight:300;
     line-height:20px;
@@ -209,7 +218,11 @@ a:visited
 #contacts
 {
     position:absolute;
+<<<<<<< HEAD
     top:76px;
+=======
+    top:72px;
+>>>>>>> origin/master
     right:40px;
 }
 
@@ -228,6 +241,7 @@ a:visited
 {
     0% 
     {
+<<<<<<< HEAD
         -webkit-transform:translateY(350px);
         -moz-transform:translateY(350px);
         -ms-transform:translateY(350px);
@@ -249,6 +263,17 @@ a:visited
         -ms-transform:translateY(0px);
         -o-transform:translateY(0px);
         transform:translateY(0px);
+=======
+        top:350px;
+    }
+    15% 
+    {
+        top:350px;
+    }
+    100% 
+    {
+        top:0px;
+>>>>>>> origin/master
     }
 }
 
@@ -263,6 +288,11 @@ a:visited
     min-height:1000px;
     padding:0 36px;
     position:relative;
+<<<<<<< HEAD
+=======
+    top:0;
+    left:auto;
+>>>>>>> origin/master
     -webkit-animation-name:animateContent;
     -webkit-animation-iteration-count:1;
     -webkit-animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
@@ -348,7 +378,10 @@ a:visited
 .previews
 {
     position:relative;
+<<<<<<< HEAD
     padding-top:10px;
+=======
+>>>>>>> origin/master
 }
 
 .previews .preview
@@ -356,15 +389,22 @@ a:visited
     float:left;
     width:50%;
     margin-top:10px;
+<<<<<<< HEAD
+=======
+    margin-bottom:8px;
+>>>>>>> origin/master
 }
 
 .previews .preview a
 {
     margin-bottom:10px !important;
     display:block;
+<<<<<<< HEAD
 }
 
 .senza-previews h2
 {
     margin-top:16px;
+=======
+>>>>>>> origin/master
 }
