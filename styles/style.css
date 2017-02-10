@@ -3,10 +3,10 @@
     padding:0;
     margin:0;
     font-size:14px;
-    font-family:'Lato', sans-serif;
-    color:#000000;
-    background-color:#272822;
+    font-family:'Rokkitt', serif;
+    color:#1f2a3b;
     visibility:hidden;
+    background-color:#181818;
 }
 
 @-ms-viewport 
@@ -70,7 +70,8 @@ a:visited
     width:900px;
     position:relative;
     margin:30px auto;
-    background-color:#ffffff;
+    padding:0px;
+    background-color:#f3f3f3;
 }
 
 .centratore
@@ -96,8 +97,14 @@ a:visited
 
 #header
 {
-    border-bottom:2px solid #112f45;
+    border-bottom:2px solid #1f2a3b;
     height:210px;
+    opacity:0;
+}
+
+#header.translate
+{
+    opacity:1;
 }
 
 #photo
@@ -124,26 +131,116 @@ a:visited
     width:400px;
     height:100%;
     padding-left:44px;
-    font-size:30px;
-    line-height:28px;
+    font-size:36px;
+    line-height:30px;
     font-weight:700;
 }
 
 #nome span
 {
-    font-size:20px;
+    font-size:24px;
     font-weight:300;
-    font-size:20px;
     line-height:20px;
+}
+
+#contacts
+{
+    position:absolute;
+    top:72px;
+    right:40px;
+}
+
+#contacts a
+{
+    display:inline-block;
+    height:60px;
+}
+
+#contacts a img
+{
+    height:100%;
+}
+
+#content-wrapper
+{
+    position:relative;
+    overflow:hidden;
 }
 
 #content
 {
     min-height:1000px;
+    padding:0 36px 10px 36px;
+    position:relative;
+    left:auto;
+    top:350px;
+}
+
+#content.translate
+{
+    top:0;
 }
 
 #content .item
 {
-    padding:20px 40px;
-    border-bottom:2px solid #112f45;
+    padding:20px 0 30px 0;
+    margin-bottom:8px;
+    border-bottom:1px solid #1f2a3b;
+}
+
+#content .item:last-child
+{
+    border:none;
+}
+
+#content .item .titolo
+{
+    background-color:#454a51;
+    padding:0 36px;
+    line-height:48px;
+    color:#ffffff;
+    font-size:23px;
+}
+
+#content .item .descrizione
+{
+    margin-left:240px;
+    color:#1f2a3b;
+    font-size:20px;
+    line-height:22px;
+    font-weight:300;
+    margin-top:20px;
+}
+
+#content .item .descrizione h2
+{
+    font-weight:600;
+    font-size:23px;
+    line-height:26px;
+}
+
+#content .item .descrizione span
+{
+    font-size:15px;
+    margin-bottom:6px;
+    display:inline-block;
+    font-style:italic;
+}
+
+.transition-header
+{
+    -webkit-transition: all 0.60s linear;
+    -moz-transition: all 0.60s linear;
+    -ms-transition: all 0.60s linear;
+    -o-transition: all 0.60s linear;
+    transition: all 0.60s linear;
+}
+
+.transition-content
+{
+    -webkit-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -moz-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -ms-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -o-transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    transition: all 0.80s cubic-bezier(0.025, 0.995, 0.520, 0.975);
 }

@@ -3,6 +3,9 @@ var heightSito = 0;
 
 $(document).ready(function () {
     SetLayout();
+
+    $('#header').addClass('translate');
+    $('#content').addClass('translate');
 });
 
 $(window).resize(function () {
