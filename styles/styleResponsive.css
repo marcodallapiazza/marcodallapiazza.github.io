@@ -1,4 +1,9 @@
 ﻿@media screen and (max-width: 1024px) {
+    h1
+    {
+        font-size:24px;
+    }
+
     #master
     {
         width:auto;
@@ -36,7 +41,7 @@
         display:block;
     }
 
-    #nome span
+    #nome h2
     {
         font-size:17px;
         line-height:20px;
