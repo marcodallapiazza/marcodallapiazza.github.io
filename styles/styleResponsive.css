@@ -2,6 +2,106 @@
     #master
     {
         width:auto;
+        margin:10px;
+    }
+
+    #header
+    {
+        height:auto;
+    }
+
+    #photo
+    {
         margin:16px;
+        width:auto;
+        float:none;
+        background-position:center -70px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
+    }
+
+    #nome
+    {
+        padding:4px 16px 16px 16px;
+        font-size:24px;
+        line-height:20px;
+        width:auto;
+        display:block;
+        text-align:center;
+    }
+
+    #nome .table-alignator
+    {
+        display:block;
+    }
+
+    #nome span
+    {
+        font-size:17px;
+        line-height:20px;
+    }
+
+    #contacts
+    {
+        position:relative;
+        right:auto;
+        top:0;
+        text-align:center;
+        margin-bottom:16px;
+    }
+
+    #contacts a
+    {
+        height:40px;
+    }
+
+    #content
+    {
+        padding:0 18px;
+    }
+
+    #content .item
+    {
+        padding:20px 0 10px 0;
+        margin:0;
+        border-bottom:1px solid #1f2a3b;
+    }
+
+    #content .item .descrizione
+    {
+        margin-left:0;
+        margin-top:16px;
+        font-size:14px;
+        line-height:20px;
+        padding:0 8px;
+    }
+
+    #content .item .titolo
+    {
+        font-size:16px;
+        line-height:18px;
+        padding:8px;
+        -webkit-border-top-right-radius:8px;
+        -moz-border-radius-topright:8px;
+        border-top-right-radius:8px;
+    }
+
+    #content .item .descrizione h2
+    {
+        font-size:18px;
+        line-height:21px;
+    }
+
+    #content .item .descrizione .data
+    {
+        font-size:12px;
+        margin-bottom:2px;
+    }
+
+    #content .item.portfolio .descrizione a
+    {
+        font-size:14px;
+        margin-bottom:16px;
     }
 }

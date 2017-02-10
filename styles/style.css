@@ -54,12 +54,50 @@ a:visited
 	text-decoration:none;
 }
 
+@keyframes animateMaster 
+{
+    0% 
+    {
+        opacity:0;
+    }
+    10% 
+    {
+        opacity:0;
+    }
+    100% 
+    {
+        opacity:1;
+    }
+}
+
 #master
 {
     width:900px;
     position:relative;
     margin:30px auto;
+    padding-bottom:30px;
+    overflow:auto;
     background-color:#f3f3f3;
+    -webkit-animation-name:animateMaster;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:ease-in;
+    -webkit-animation-duration:0.6s;
+    -moz-animation-name:animateMaster;
+    -moz-animation-iteration-count:1;
+    -moz-animation-timing-function:ease-in;
+    -moz-animation-duration:0.6s;
+    -ms-animation-name:animateMaster;
+    -ms-animation-iteration-count:1;
+    -ms-animation-timing-function:ease-in;
+    -ms-animation-duration:0.6s;
+    -o-animation-name:animateMaster;
+    -o-animation-iteration-count:1;
+    -o-animation-timing-function:ease-in;
+    -o-animation-duration:0.6s;
+    animation-name:animateMaster;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in;
+    animation-duration:0.6s;
 }
 
 .centratore
@@ -83,8 +121,13 @@ a:visited
     vertical-align:middle;
 }
 
-@keyframes animateHeader {
+@keyframes animateHeader 
+{
     0% 
+    {
+        opacity:0;
+    }
+    45% 
     {
         opacity:0;
     }
@@ -96,12 +139,29 @@ a:visited
 
 #header
 {
+    position:relative;
     border-bottom:2px solid #1f2a3b;
     height:210px;
+    -webkit-animation-name:animateHeader;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-duration:0.85s;
+    -moz-animation-name:animateHeader;
+    -moz-animation-iteration-count:1;
+    -moz-animation-timing-function:linear;
+    -moz-animation-duration:0.85s;
+    -ms-animation-name:animateHeader;
+    -ms-animation-iteration-count:1;
+    -ms-animation-timing-function:linear;
+    -ms-animation-duration:0.85s;
+    -o-animation-name:animateHeader;
+    -o-animation-iteration-count:1;
+    -o-animation-timing-function:linear;
+    -o-animation-duration:0.85s;
     animation-name:animateHeader;
     animation-iteration-count:1;
     animation-timing-function:linear;
-    animation-duration:0.6s;
+    animation-duration:0.85s;
 }
 
 #photo
@@ -158,8 +218,13 @@ a:visited
     height:100%;
 }
 
-@keyframes animateContent {
+@keyframes animateContent 
+{
     0% 
+    {
+        top:350px;
+    }
+    15% 
     {
         top:350px;
     }
@@ -180,7 +245,24 @@ a:visited
     min-height:1000px;
     padding:0 36px;
     position:relative;
+    top:0;
     left:auto;
+    -webkit-animation-name:animateContent;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -webkit-animation-duration:0.8s;
+    -moz-animation-name:animateContent;
+    -moz-animation-iteration-count:1;
+    -moz-animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -moz-animation-duration:0.8s;
+    -ms-animation-name:animateContent;
+    -ms-animation-iteration-count:1;
+    -ms-animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -ms-animation-duration:0.8s;
+    -o-animation-name:animateContent;
+    -o-animation-iteration-count:1;
+    -o-animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
+    -o-animation-duration:0.8s;
     animation-name:animateContent;
     animation-iteration-count:1;
     animation-timing-function:cubic-bezier(0.025, 0.995, 0.520, 0.975);
@@ -191,12 +273,8 @@ a:visited
 {
     padding:30px 0 20px 0;
     margin-bottom:10px;
-    border-bottom:1px solid #1f2a3b;
-}
-
-#content .item:last-child
-{
-    border:none;
+    border-bottom:2px solid #1f2a3b;
+    position:relative;
 }
 
 #content .item .titolo
@@ -206,6 +284,9 @@ a:visited
     line-height:48px;
     color:#ffffff;
     font-size:23px;
+    -webkit-border-top-right-radius:16px;
+    -moz-border-radius-topright:16px;
+    border-top-right-radius:16px;
 }
 
 #content .item .descrizione
@@ -228,7 +309,7 @@ a:visited
 #content .item .descrizione .data
 {
     font-size:15px;
-    margin-bottom:6px;
+    margin-bottom:4px;
     display:inline-block;
     font-style:italic;
 }
