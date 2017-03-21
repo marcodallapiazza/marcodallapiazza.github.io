@@ -100,7 +100,7 @@
 
     #content .item .descrizione h2
     {
-        font-size:18px;
+        font-size:16px;
         line-height:21px;
     }
 
@@ -112,7 +112,28 @@
 
     #content .item.portfolio .descrizione a
     {
+        line-height:18px;
+    }
+
+    #content .item.portfolio .descrizione a
+    {
         font-size:14px;
         margin-bottom:16px;
+    }
+
+    .previews,
+    .senza-previews
+    {
+        text-align:center;
+    }
+
+    .previews .preview
+    {
+        width:100%;
+    }
+
+    .portfolio h2
+    {
+        font-size:14px !important;
     }
 }
