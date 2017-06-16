@@ -330,6 +330,11 @@ a:visited
     font-style:italic;
 }
 
+#content .item .descrizione .a
+{
+    font-weight:600;
+}
+
 #content .item.portfolio .descrizione a
 {
     font-size:20px;
