@@ -112,13 +112,9 @@
 
     #content .item.portfolio .descrizione a
     {
-        line-height:18px;
-    }
-
-    #content .item.portfolio .descrizione a
-    {
-        font-size:14px;
+        font-size:15px;
         margin-bottom:16px;
+        line-height:18px;
     }
 
     .previews,
