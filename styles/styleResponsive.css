@@ -74,18 +74,17 @@
 
     #content .item
     {
-        padding:20px 0 10px 0;
+        padding:20px 0;
         margin:0;
         border-bottom:1px solid #1f2a3b;
     }
 
     #content .item .descrizione
     {
-        margin-left:0;
-        margin-top:16px;
         font-size:14px;
         line-height:20px;
         padding:0 8px;
+        margin:20px 0 0 0;
     }
 
     #content .item .titolo
@@ -101,13 +100,13 @@
     #content .item .descrizione h2
     {
         font-size:16px;
-        line-height:21px;
+        line-height:19px;
     }
 
     #content .item .descrizione .data
     {
         font-size:12px;
-        margin-bottom:2px;
+        margin-bottom:5px;
     }
 
     #content .item.portfolio .descrizione a
