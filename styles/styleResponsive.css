@@ -76,15 +76,14 @@
     {
         padding:20px 0;
         margin:0;
-        border-bottom:1px solid #1f2a3b;
     }
 
     #content .item .descrizione
     {
         font-size:14px;
         line-height:20px;
-        padding:0 8px;
-        margin:20px 0 0 0;
+        padding:20px 0px 0 0px;
+        margin:20px 8px 0 8px;
     }
 
     #content .item .titolo
