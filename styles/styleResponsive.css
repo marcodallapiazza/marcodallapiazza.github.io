@@ -126,6 +126,11 @@
         width:100%;
     }
 
+	.previews .preview a
+	{
+		font-size:15px !important;
+	}
+
     .portfolio h2
     {
         font-size:14px !important;

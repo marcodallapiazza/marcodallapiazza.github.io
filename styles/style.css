@@ -349,12 +349,11 @@ a:visited
 
 #content .item.portfolio .descrizione a
 {
-    font-size:18px;
+    font-size:20px;
     font-style:italic;
     line-height:24px;
     display:inline-block;
     margin-bottom:20px;
-
 }
 
 #content .item.portfolio .descrizione a:hover
@@ -377,6 +376,7 @@ a:visited
 
 .previews .preview a
 {
+	font-size:18px !important;
     margin-bottom:10px !important;
     display:block;
 }
