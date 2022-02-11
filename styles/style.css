@@ -329,6 +329,15 @@ a:visited
     line-height:26px;
 }
 
+#content .item .descrizione .job-title
+{
+    font-style:italic;
+    margin-top:20px;
+    display:inline-block;
+    font-size:19px;
+    font-weight:700;
+}
+
 #content .item .descrizione .data
 {
     font-size:18px;
